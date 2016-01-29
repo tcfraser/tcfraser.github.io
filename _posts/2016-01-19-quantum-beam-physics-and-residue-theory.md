@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quantum Beam Physics & Residue Theory
+title: Beam Physics and Residue Theory
 ---
 
 Given a very long beam of neutrons or any other particle undergoing 1d motion with average momentum $mv_0$, how can we measure the fraction of the beam that is moving backward? This might seem counter-intuitive but in Quantum Mechanics, position and momentum can only be resolved as distributions. Non-relativistically, there will always be a fraction (likely small) of particles moving backward.
