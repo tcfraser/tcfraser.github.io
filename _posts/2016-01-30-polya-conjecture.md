@@ -45,7 +45,7 @@ Evaluating the Liouville Function is easy, I encourage the reader to try a coupl
 
 ## The Pólya Conjecture
 
-Although not clear from this table, George Pólya noticed something *strange* about $\lambda(k)$. He noticed an interested asymmetry to the values of $\lambda(k)$. Seemingly, $\lambda(k)$ equals $-1$ more often than it does $+1$. This indicates that there are *more* numbers with an odd number of prime factors than numbers with an even number of prime factors. Pólya conjectured that this was always true, no matter how many numbers he considered. Stating this conjecture formally, for $T(n)$ defined to be the sum of the Louville function,
+Although not clear from this table, George Pólya noticed something *strange* about $\lambda(k)$. He noticed an interested asymmetry to the values of $\lambda(k)$. Seemingly, $\lambda(k)$ equals $-1$ more often than it does $+1$. This indicates that there are *more* numbers with an odd number of prime factors than numbers with an even number of prime factors. Pólya conjectured that this was always true, no matter how many numbers he considered. Stating this conjecture formally, for $T(n)$ defined to be the sum of the Liouville function,
 
 $$ T(n) = \sum_{k=1}^{n} \lambda(k) $$
 
@@ -63,7 +63,7 @@ You can get higher resolutions of these plots as well as the code used to genera
 
 ## My Favorite Number
 
-So how does $906,150,257$ play into all this? Well for nearly 40 years no one knew if the Pólya conjecture was true or not. It wasn't until 1958 when Colin Haselgrove managed to [prove](http://journals.cambridge.org/download.php?file=%2FMTK%2FMTK5_02%2FS0025579300001480a.pdf&code=c6fe3e67f20544f7533e435a6523a1b7)[^free] that there must exist a counterexample. He did this using an the [Dirichlet series](https://en.wikipedia.org/wiki/Dirichlet_series) representation of the form
+So how does $906,150,257$ play into all this? Well for nearly 40 years no one knew if the Pólya conjecture was true or not. It wasn't until 1958 when Colin Haselgrove managed to [prove](http://journals.cambridge.org/download.php?file=%2FMTK%2FMTK5_02%2FS0025579300001480a.pdf&code=c6fe3e67f20544f7533e435a6523a1b7)[^free] that there must exist a counterexample. He did this using the [Dirichlet series](https://en.wikipedia.org/wiki/Dirichlet_series) representation of the Liouville function of the form
 
 $$ \f{\zeta(2s)}{\zeta(s)} = \sum_{n=1}^{\infty} \f{\lambda(n)}{n^s}  $$
 
