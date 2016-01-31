@@ -20,7 +20,7 @@ Evaluating the Liouville Function is easy, I encourage the reader to try a coupl
 
 | $k$             | Prime Factors of $k$ | $\rho(k)$  | $\lambda(k)$    |
 |:---------------:|:---------------:|:---------------:|:---------------:|
-| $1$             | $1$             | $1$             | $-1$            |
+| $1$             | $0$             | $0$             | $+1$            |
 | $2$             | $2$             | $1$             | $-1$            |
 | $3$             | $3$             | $1$             | $-1$            |
 | $4$             | $2\cdot 2$      | $2$             | $+1$            |
@@ -49,9 +49,9 @@ Although not clear from this table, George Pólya noticed something *strange* ab
 
 $$ T(n) = \sum_{k=1}^{n} \lambda(k) $$
 
-Where $T(n)$ is count of the amount of numbers *less than or equal* to $n$ with an *even* number of prime factors. The Pólya conjecture states that $T(n)$ is *always* less than zero, or that there is always a majority of numbers with an odd amount of prime factors.
+Where $T(n)$ is count of the amount of numbers *less than or equal* to $n$ with an *even* number of prime factors. The Pólya conjecture states that $T(n)$ is *always* less than zero (except for n=1), or that there is always a majority of numbers with an odd amount of prime factors.
 
-$$ T(n) \leq 0 , \forall n $$
+$$ T(n) \leq 0 , \forall n > 1$$
 
 This conjecture is perfectly reasonable. Checking every number up to $n = 1,000,000$ and you can see that that $T(n)$ remains negative and has somewhat of a downward trend. 
 
