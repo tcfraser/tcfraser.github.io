@@ -20,7 +20,7 @@ Evaluating the Liouville Function is easy, I encourage the reader to try a coupl
 
 | $k$             | Prime Factors of $k$ | $\rho(k)$  | $\lambda(k)$    |
 |:---------------:|:---------------:|:---------------:|:---------------:|
-| $1$             | $0$             | $0$             | $+1$            |
+| $1$             | None            | $0$             | $+1$            |
 | $2$             | $2$             | $1$             | $-1$            |
 | $3$             | $3$             | $1$             | $-1$            |
 | $4$             | $2\cdot 2$      | $2$             | $+1$            |
