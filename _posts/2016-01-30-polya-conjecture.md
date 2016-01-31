@@ -49,7 +49,7 @@ Although not clear from this table, George Pólya noticed something *strange* ab
 
 $$ T(n) = \sum_{k=1}^{n} \lambda(k) $$
 
-Where $T(n)$ is count of the amount of numbers *less than or equal* to $n$ with an *even* number of prime factors. The Pólya conjecture states that $T(n)$ is *always* less than zero (except for n=1), or that there is always a majority of numbers with an odd amount of prime factors.
+Where $T(n)$ is count of the amount of numbers *less than or equal* to $n$ with an *even* number of prime factors. The Pólya conjecture states that $T(n)$ is *always* less than zero (except for $n=1$), or that there is always a majority of numbers with an odd amount of prime factors.
 
 $$ T(n) \leq 0 , \forall n > 1$$
 
