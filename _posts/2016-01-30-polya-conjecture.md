@@ -3,7 +3,7 @@ layout: post
 title: The Pólya Conjecture & 906,150,257
 ---
 
-As a proper nerd, I find myself dabbling in the realms of [recreational mathematics](https://en.wikipedia.org/wiki/Recreational_mathematics) from time to time. As a result of this, I have very peculiar favorite number, namely $906,150,257$. This number is the spawn of the Pólya Conjecture, which was first posited by George Pólya in 1919. I am so found of this particular number because it belongs to one of the few unique cases where large numbers have interesting properties. For more, see [Sloane's Gap (PDF)](http://arxiv.org/pdf/1101.4470.pdf).
+As a proper nerd, I find myself dabbling in the realms of [recreational mathematics](https://en.wikipedia.org/wiki/Recreational_mathematics) from time to time. As a result of this, I have very peculiar favorite number, namely $906,150,257$. This number is the spawn of the Pólya Conjecture, which was first posited by George Pólya in 1919. I am so fond of this particular number because it belongs to one of the few unique cases where large numbers have interesting properties. For more, see [Sloane's Gap (PDF)](http://arxiv.org/pdf/1101.4470.pdf).
 
 <!--more-->
 
