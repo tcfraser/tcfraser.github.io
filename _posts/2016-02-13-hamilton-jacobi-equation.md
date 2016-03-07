@@ -166,3 +166,25 @@ Those familiar with Lagrangian mechanics will recognize that $\phi'$ takes on th
 $$
 \pder{S}{t} + \f{1}{2m} \br{\vec{\nabla} S}^2 +  U = 0
 $$
+
+## Physical Generator
+
+The classical action $S$ is fairly simple. Constructing it in the above fashion illustrates how Newton's law can be turned into a PDE. The action $S$ behaves as a [generating function](https://en.wikipedia.org/wiki/Generating_function) for the momentum of the system.
+
+$$
+\vec{p} = \vec{\nabla} S
+$$
+
+It just so happens that the function $f(t)$ above is actually $f(t) = -Et$ (can you see why this is the case?). This makes the partial derivative of $S = \phi'$ with respect to time the energy of the system. Therefore the **partial derivatives of S generate physical quantities**.
+
+$$
+\pder{S}{t} = - E \quad \pder{S}{x} = p_x \quad \pder{S}{y} = p_y \quad \pder{S}{z} = p_z
+$$
+
+Under this understanding, the Hamilton-Jacobi equation is nothing more than a statement of conservation of energy.
+
+$$
+U - E + \f{p^2}{2m} = 0 \implies E = T + U
+$$
+
+Where $T$ is the kinetic energy of the system. This is directly analogous to how [Helmholtz free energy](https://en.wikipedia.org/wiki/Helmholtz_free_energy) can be used as a generator for all thermodynamical quantities.
