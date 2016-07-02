@@ -198,35 +198,37 @@ function langton(config) {
 
 // There are multiple canvases to demo different configurations of speed and size
 function main() {
-    var canvases = document.getElementsByClassName("langtons_ant");
-
-    cfgs = [
-        {
+    cfgs = {
+        intro: {
             stepsPerFrame: 0.02,
             blockSize: 20,
             torus: false,
         },
-        {
+        attractor: {
             stepsPerFrame: 10,
             blockSize: 4,
             torus: false,
         },
-        {
+        torus: {
             stepsPerFrame: 100,
             blockSize: 2,
             torus: true,
         },
-        {
-            stepsPerFrame: 2000,
+        stress: {
+            stepsPerFrame: 4000,
             blockSize: 1,
             torus: true,
         },
-    ]
+    }
 
-    for (i = 0; i < canvases.length; i++) {
-        config = cfgs[i];
-        config.canvas = canvases[i];
-        langton(config);
+    for (config in cfgs) {
+        console.log(config)
+        var canvases = document.getElementsByClassName("langtons_ant_"+config);
+        for (i = 0; i < canvases.length; i++) {
+            config_data = cfgs[config];
+            config_data.canvas = canvases[i];
+            langton(config_data);
+        }
     }
 }
 

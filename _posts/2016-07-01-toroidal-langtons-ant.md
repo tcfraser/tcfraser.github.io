@@ -20,16 +20,15 @@ In both cases, the ant then flips the color of the square and moves forward.
 
 ### Introduction
 Below the ant is moving at a relatively slow speed for visualization purposes.
-<canvas class="langtons_ant" width="500" height="500"></canvas>
+<canvas class="langtons_ant_intro" width="500" height="500"></canvas>
 
 ### Attractor
 The characteristic feature of Langton's ant is it's emergent order. After over $10,000$ steps of seeming randomness, a stable and repeaing $104$ cycle emerges as the ant *travels* in one direction forever. When the ant reaches the end of the world, the simulation repeats itself.
-<canvas class="langtons_ant" width="500" height="500"></canvas>
+<canvas class="langtons_ant_attractor" width="500" height="500"></canvas>
 
 ### Torus
 Instead of allowing the ant to reach the edge of the world, it can instead wrap around the edges and interact with active cells from before.
-<canvas class="langtons_ant" width="500" height="500"></canvas>
+<canvas class="langtons_ant_torus" width="500" height="500"></canvas>
 
-### Stress Test
-Here is extend of what my code comfortably handle. The code can be found [here](/js/langtons_ant.js)
-<canvas class="langtons_ant" width="1000" height="1000"></canvas>
+### Code & Stress Test
+The code can be found [here](/js/langtons_ant.js). If you want to see a stress test with many many more grid points, [click here]({% post_url 2016-07-01-toroidal-langtons-ant-stress-test %}).
