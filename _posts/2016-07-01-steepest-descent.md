@@ -10,7 +10,7 @@ Steepest-Descent Approximation is an integral approximation technique aimed at i
 <!--more-->
 
 ## Multivariate Taylor's Approximation
-Given a multivariate, real-valued function $f : \R^n \to \R$ that is $n+1$ times differentiable, $f \in \C^{k+1}$, one can approximate $f(\vec{x})$ nearby the point $\vec{a}$ using a Multivariate Taylor's Approximation[^mvta],
+Given a multivariate, real-valued function $f : \R^n \to \R$ that is $k+1$ times differentiable, $f \in \C^{k+1}$, one can approximate $f(\vec{x})$ nearby the point $\vec{a}$ using a Multivariate Taylor's Approximation[^mvta],
 
 $$
 f\br{\vec{x}} = \sum_{\abs{\al} \leq k} \f{\di^\al f\br{\vec{a}}}{\al!} \br{\vec{x} - \vec{a}}^\al + R_{\al, k} \br{\vec{x} - \vec{a}}
