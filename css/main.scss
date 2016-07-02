@@ -47,42 +47,42 @@ $side-bar-size-desktop: 18rem;
 }
 
 html, body {
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-        font-family: "Open Sans", Helvetica, Arial, sans-serif;
-        font-size: 12px;
-        line-height: 150%;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 150%;
 }
 
 @media (min-width: $break-size-1) {
-        html {
-            font-size: 16px;
-            line-height: 150%;
-        }
+    html {
+        font-size: 16px;
+        line-height: 150%;
+    }
 }
 
 @media (min-width: $break-size-2) {
-        html {
-            font-size: 12px;
-            line-height: 150%;
-        }
+    html {
+        font-size: 12px;
+        line-height: 150%;
+    }
 }
 
 @media (min-width: $break-size-3) {
-        html {
-            font-size: 16px;
-            line-height: 150%;
-        }
+    html {
+        font-size: 16px;
+        line-height: 150%;
+    }
 }
 
 body {
-        color: $default-text-color;
-        background-color: #fff;
-        -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
+    color: $default-text-color;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
 }
 /* ------ */
 
@@ -173,6 +173,12 @@ img {
     max-width: 100%;
     margin: 0 0 1rem;
     border-radius: 5px;
+}
+
+canvas {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 1rem;
 }
 
 hr {
