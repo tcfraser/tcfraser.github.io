@@ -127,7 +127,7 @@ $$
 Therefore suggesting a change of coordinates $z^i = {\Pi^i}_j h^j$ such that,
 
 $$
-\di_j\di_i f\br{\vec{a}} h^i h^j = \di_j\di_i f\br{\vec{a}} {\Pi^{j}}_k z^k {\Pi^{j}}_k z^k = D_{kk} z^k z^k
+\di_j\di_i f\br{\vec{a}} h^i h^j = \di_j\di_i f\br{\vec{a}} {\Pi^{j}}_k z^k {\Pi^{i}}_k z^k = D_{kk} z^k z^k
 $$
 
 And the integral becomes,
