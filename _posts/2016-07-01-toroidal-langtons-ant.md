@@ -31,4 +31,4 @@ Instead of allowing the ant to reach the edge of the world, it can instead wrap 
 <canvas class="langtons_ant_torus" width="500" height="500"></canvas>
 
 ### Code & Stress Test
-The code can be found [here](/js/langtons_ant.js). If you want to see a stress test with many many more grid points, [click here]({% post_url 2016-07-01-toroidal-langtons-ant-stress-test %}).
+The code can be found [here](https://github.com/tcfraser/tcfraser.github.io/blob/master/js/langtons_ant.js). If you want to see a stress test with many many more grid points, [click here]({% post_url 2016-07-01-toroidal-langtons-ant-stress-test %}).
