@@ -9,7 +9,7 @@ js: langtons_ant
 <!--more-->
 
 ## Rules
-The standard rules of Langton's ant are simple. The ant (the red square) lives in a grid world where it can only move forward. The rules are summarized as follows. At each each iteration, the ant turns according to the color it is on:
+The standard rules of Langton's ant are simple. The ant (the red square) lives in a grid world where it can only move forward. The rules are summarized as follows. At each iteration, the ant turns according to the color it is on:
 
 - On a white square, the ant turns $90^{o}$ toward the right
 - On a black square, the ant turns $90^{o}$ toward the left
