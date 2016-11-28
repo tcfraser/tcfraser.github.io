@@ -4,12 +4,14 @@ title: About
 latex: none
 ---
 
-My name is officially *Thomas Coolican Fraser*, however everyone calls me by my first two initials *TC*. I am currently studying Mathematical Physics at the University of Waterloo. I'm really interested in all sorts of Mathematics, Physics and Computer Science. Long term I hope to become a theoretical physicist.
+My name is officially *Thomas Coolican Fraser*, however everyone calls me by my first two initials *TC*. I am currently studying Mathematical Physics at the University of Waterloo. I find myself interested in all sorts of mathematics, physics and computer science. My unwavering ambition is to study theoretical physics for a career.
 
 My other hobbies include graphic design, video creation/editing, and playing guitar.
 
-This blog is intended to be a place for me to write down things I'm interested in. Most often, my target audience is my future self. Some of my posts are original ideas; some are summaries of concepts I've learned explained in a way I understand them best. 
+This blog acts an an avenue for me to write about topics and ideas that are of interest to me. Most often, the target audience is my future self. Some of my posts are original ideas; some are summaries of concepts I've learned explained in a way I understand them best. 
 
 Feel free to read through my [Posts](/). Thanks!
 
 In order to contact me, send me an email at *<span class="hide-email">moc.resarfct@resarfct</span>*.
+
+You can download the most up-to-date copy of my CV [here]().
