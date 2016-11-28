@@ -14,4 +14,4 @@ Feel free to read through my [Posts](/). Thanks!
 
 In order to contact me, send me an email at *<span class="hide-email">moc.resarfct@resarfct</span>*.
 
-You can download the most up-to-date copy of my CV [here]().
+You can download the most up-to-date copy of my CV [here](https://github.com/tcfraser/curriculum-vitae/raw/master/cv.pdf).
