@@ -232,5 +232,5 @@ function main() {
     }
 }
 
-// Don't do anything unless the page as loaded
+// Don't do anything unless the page was loaded
 document.addEventListener("DOMContentLoaded", main, false)

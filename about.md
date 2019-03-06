@@ -4,9 +4,7 @@ title: About
 latex: none
 ---
 
-My name is officially *Thomas Coolican Fraser*, however everyone calls me by my first two initials *TC*. I am currently studying Mathematical Physics at the University of Waterloo. I find myself interested in all sorts of mathematics, physics and computer science. My unwavering ambition is to study theoretical physics for a career.
-
-My other hobbies include graphic design, video creation/editing, and playing guitar.
+My name is *Thomas Coolican Fraser*, however everyone calls me by my first two initials *TC*. I am currently studying Quantum Information and Quantum Foundations at the Perimeter Institute for Theoretical Physics. I find myself interested in all sorts of mathematics, physics and computer science.
 
 This blog acts an an avenue for me to write about topics and ideas that are of interest to me. Most often, the target audience is my future self. Some of my posts are original ideas; some are summaries of concepts I've learned explained in a way I understand them best. 
 
