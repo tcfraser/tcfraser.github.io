@@ -1,37 +1,248 @@
----
-layout: default
-title: Home
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Thomas C. Fraser — postdoctoral researcher in quantum information."
+    >
+    <meta name="theme-color" content="#0b1820">
+    <title>TC Fraser</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-<div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post preview">
-        <h1 class="post-title">
-            <a href="{{ post.url }}">
-                {{ post.title }}
-            </a>
-        </h1>
+  <body>
+    <aside class="site-panel" aria-label="Site introduction">
+      <div class="panel-copy">
+        <a class="wordmark" href="#top" aria-label="TC Fraser, back to top">
+          <span class="wordmark-mark">TC</span>
+          <span>Fraser</span>
+        </a>
 
-        <span class="post-date">{{ post.date | date_to_string }}</span>
+        <p class="panel-label">Quantum information<br>&amp; representation theory</p>
 
-        {{ post.excerpt }}
-    </div>
-    {% endfor %}
-</div>
+        <nav class="panel-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
 
-<div class="pagination">
-    {% if paginator.next_page %}
-        <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-    {% else %}
-        <span class="pagination-item older">Older</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-            <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-        {% else %}
-            <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-        {% endif %}
-    {% else %}
-        <span class="pagination-item newer">Newer</span>
-    {% endif %}
-</div>
+      <div class="galaxy-frame" aria-hidden="true">
+        <img src="images/logo/galaxy_main.png" alt="">
+      </div>
+    </aside>
+
+    <main id="top">
+      <section class="intro" id="about" aria-labelledby="intro-heading">
+
+        <h1 id="intro-heading">Thomas C. <span>Fraser</span></h1>
+
+        <p class="position">
+          Postdoctoral researcher
+          at the University of Copenhagen.
+        </p>
+
+        <p class="summary">
+            I work at the intersection of quantum information, representation theory, and causal networks.
+            My research focuses on the geometric and algebraic structure of multipartite quantum states and the fundamental limits of quantum information.
+        </p>
+
+        <div class="profile-links" id="contact" aria-label="Contact and profile links">
+          <a href="mailto:tcf@math.ku.dk">Email</a>
+          <a href="https://scholar.google.ca/citations?user=ybaLSoIAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a href="https://github.com/tcfraser" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/tcfraser/curriculum-vitae/raw/master/cv.pdf" target="_blank" rel="noreferrer">CV <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <dl class="quick-facts">
+          <div>
+            <dt>Position</dt>
+            <dd>Postdoctoral researcher</dd>
+            <dd>University of Copenhagen</dd>
+          </div>
+          <div>
+            <dt>Research</dt>
+            <dd>Multipartite quantum entanglement,</dd>
+            <dd>tensors, quantum networks</dd>
+          </div>
+          <div>
+            <dt>Education</dt>
+            <dd>PhD Physics, MSc Physics</dd>
+            <dd>BSc Mathematical Physics</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="publications" id="publications" aria-labelledby="publications-heading">
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="publications-heading">Publications</h2>
+          </div>
+          <p>Papers, preprints, and thesis work.</p>
+        </header>
+
+        <div class="publication-list">
+          <article class="publication">
+            <div class="publication-meta">
+              <time datetime="2026">2026</time>
+              <span>Preprint</span>
+            </div>
+            <div class="publication-body">
+              <h3>
+                <a href="https://arxiv.org/abs/2606.16712" target="_blank" rel="noreferrer">
+                  Complete entanglement detection using polynomial invariants
+                </a>
+              </h3>
+              <p><strong>Thomas C. Fraser</strong>, Vjosa Blakaj, Roberto Rubboli, Felix Huber, and Marco Fanizza</p>
+              <a class="paper-link" href="https://arxiv.org/abs/2606.16712" target="_blank" rel="noreferrer">arXiv:2606.16712</a>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-meta">
+              <time datetime="2026">2026</time>
+              <span>Preprint</span>
+            </div>
+            <div class="publication-body">
+              <h3>
+                <a href="https://arxiv.org/abs/2604.18283" target="_blank" rel="noreferrer">
+                  On quantum functionals for higher-order tensors
+                </a>
+              </h3>
+              <p>Alonso Botero, Matthias Christandl, <strong>Thomas C. Fraser</strong>, Itai Leigh, and Harold Nieuwboer</p>
+              <a class="paper-link" href="https://arxiv.org/abs/2604.18283" target="_blank" rel="noreferrer">arXiv:2604.18283</a>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-meta">
+              <time datetime="2025">2025</time>
+              <span>Preprint</span>
+            </div>
+            <div class="publication-body">
+              <h3>
+                <a href="https://arxiv.org/abs/2510.04877" target="_blank" rel="noreferrer">
+                  The tetrahedral Horn problem and asymptotics of U(n) 6j symbols
+                </a>
+              </h3>
+              <p>Anton Alekseev, Matthias Christandl, and <strong>Thomas C. Fraser</strong></p>
+              <a class="paper-link" href="https://arxiv.org/abs/2510.04877" target="_blank" rel="noreferrer">arXiv:2510.04877</a>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-meta">
+              <time datetime="2023">2023</time>
+              <span>PhD thesis</span>
+            </div>
+            <div class="publication-body">
+              <h3>
+                <a href="https://uwspace.uwaterloo.ca/items/91e64237-521a-4386-bb9e-caaf2cbc3eaa" target="_blank" rel="noreferrer">
+                  An estimation theoretic approach to quantum realizability problems
+                </a>
+              </h3>
+              <p><strong>Thomas C. Fraser</strong> · University of Waterloo</p>
+              <div class="paper-links">
+                <a class="paper-link" href="https://uwspace.uwaterloo.ca/items/91e64237-521a-4386-bb9e-caaf2cbc3eaa" target="_blank" rel="noreferrer">UWSpace</a>
+                <a class="paper-link" href="https://arxiv.org/abs/2402.10902" target="_blank" rel="noreferrer">arXiv:2402.10902</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-meta">
+              <time datetime="2023">2023</time>
+              <span>Journal article</span>
+            </div>
+            <div class="publication-body">
+              <h3>
+                <a href="https://arxiv.org/abs/2004.09194" target="_blank" rel="noreferrer">
+                  Understanding the interplay of entanglement and nonlocality: motivating and developing a new branch of entanglement theory
+                </a>
+              </h3>
+              <p>David Schmid, <strong>Thomas C. Fraser</strong>, Ravi Kunjwal, Ana Belen Sainz, Elie Wolfe, and Robert W. Spekkens · <cite>Quantum</cite> 7, 1194</p>
+              <div class="paper-links">
+                <a class="paper-link" href="https://doi.org/10.22331/q-2023-12-04-1194" target="_blank" rel="noreferrer">Journal</a>
+                <a class="paper-link" href="https://arxiv.org/abs/2004.09194" target="_blank" rel="noreferrer">arXiv:2004.09194</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-meta">
+              <time datetime="2022">2022</time>
+              <span>Preprint</span>
+            </div>
+            <div class="publication-body">
+              <h3>
+                <a href="https://arxiv.org/abs/2211.00685" target="_blank" rel="noreferrer">
+                  A sufficient family of necessary inequalities for the compatibility of quantum marginals
+                </a>
+              </h3>
+              <p><strong>Thomas C. Fraser</strong></p>
+              <a class="paper-link" href="https://arxiv.org/abs/2211.00685" target="_blank" rel="noreferrer">arXiv:2211.00685</a>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-meta">
+              <time datetime="2020">2020</time>
+              <span>Journal article</span>
+            </div>
+            <div class="publication-body">
+              <h3>
+                <a href="https://doi.org/10.1515/jci-2019-0013" target="_blank" rel="noreferrer">
+                  A Combinatorial Solution to Causal Compatibility
+                </a>
+              </h3>
+              <p><strong>Thomas C. Fraser</strong> · <cite>Journal of Causal Inference</cite> 8(1), 22–53</p>
+              <a class="paper-link" href="https://doi.org/10.1515/jci-2019-0013" target="_blank" rel="noreferrer">Journal</a>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-meta">
+              <time datetime="2018">2018</time>
+              <span>Preprint</span>
+            </div>
+            <div class="publication-body">
+              <h3>
+                <a href="https://arxiv.org/abs/1804.04756" target="_blank" rel="noreferrer">
+                  Machine Learning Peeling and Loss Modelling of Time-Domain Reflectometry
+                </a>
+              </h3>
+              <p>J. R. Rinehart, J. H. Béjanin, <strong>Thomas C. Fraser</strong>, and M. Mariantoni</p>
+              <a class="paper-link" href="https://arxiv.org/abs/1804.04756" target="_blank" rel="noreferrer">arXiv:1804.04756</a>
+            </div>
+          </article>
+          <article class="publication">
+            <div class="publication-meta">
+              <time datetime="2018">2018</time>
+              <span>Journal article</span>
+            </div>
+            <div class="publication-body">
+              <h3>
+                <a href="https://doi.org/10.1103/PhysRevA.98.022113" target="_blank" rel="noreferrer">
+                  Causal Compatibility Inequalities Admitting Quantum Violations in the Triangle Structure
+                </a>
+              </h3>
+              <p><strong>Thomas C. Fraser</strong> and Elie Wolfe · <cite>Physical Review A</cite> 98, 022113</p>
+              <div class="paper-links">
+                <a class="paper-link" href="https://doi.org/10.1103/PhysRevA.98.022113" target="_blank" rel="noreferrer">Journal</a>
+                <a class="paper-link" href="https://arxiv.org/abs/1709.06242" target="_blank" rel="noreferrer">arXiv:1709.06242</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <footer>
+        <p>© 2026 TC Fraser</p>
+        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </main>
+  </body>
+</html>
